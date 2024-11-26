@@ -124,16 +124,14 @@ div.splitbox div.right {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  text-align: right;
 }
 
 .nav-logo img {
-  display: inline-block;
+  display: block;
   max-height: 40px;
   width: auto;
-  border-radius: 0;
+  border-radius: 50%;
 }
 
 .nav-logo:hover {
@@ -141,13 +139,11 @@ div.splitbox div.right {
 }
 
 .nav-links {
-  display: inline-block;
   margin: 0;
   padding: 0;
   font-size: 14px;
   font-family: 'EB Garamond', serif;
   list-style: none;
-  margin-left: auto;
 }
 
 .nav-links li {
@@ -166,12 +162,6 @@ div.splitbox div.right {
 
 .nav-links a:hover {
   color: #000;
-}
-
-img {
-  max-width: 100%;
-  overflow-clip-margin: content-box;
-  overflow: clip;
 }
 
 /*The parameter of `max-width` below controls the width of the body text. 
