@@ -1,0 +1,6 @@
+[submodule "themes/hugo-ht"]
+	path = themes/hugo-ht
+	url = https://github.com/hongtaoh/hugo-ht.git
+[submodule "themes/themes/hugo-ht"]
+	path = themes/themes/hugo-ht
+	url = https://github.com/hongtaoh/hugo-ht.git
