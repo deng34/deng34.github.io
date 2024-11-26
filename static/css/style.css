@@ -128,10 +128,11 @@ div.splitbox div.right {
   text-align: right;
 }
 
-.nav-logo {
-  float: left;
-  margin-top: -11px;
-  transition: transform 150ms ease-out;
+.nav-logo img {
+  display: block;
+  max-height: 40px;
+  width: auto;
+  border-radius: 0
 }
 
 .nav-logo:hover {
