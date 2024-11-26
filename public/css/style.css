@@ -67,9 +67,11 @@ div.splitbox div.right {
 /*Stylying footer text*/
 
 .footer { 
-  text-align: center; font-size: 19px;
+  text-align: center; 
+  font-size: 19px;
+  font-family: 'EB Garamond', serif;
   padding: 30px 0;
-} 
+}
 
 .footer-links {
   list-style: none;
@@ -77,6 +79,7 @@ div.splitbox div.right {
   padding: 0;
   color: #ccc;
   font-size: 14px;
+  font-family: 'EB Garamond', serif;
 }
 
 .footer-links li {
@@ -114,6 +117,7 @@ div.splitbox div.right {
   margin-top: 10px;
   margin-bottom: -5px;
   color: grey;
+  font-family: 'EB Garamond', serif;
 }
 
 /* navigation bar positioning */
@@ -145,6 +149,7 @@ div.splitbox div.right {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  font-family: 'EB Garamond', serif;
   list-style: none;
 }
 
@@ -184,8 +189,8 @@ Customize as you prefer*/
 .header {
   padding: 20px 0;
   position: relative;
-  background: #f5f5f5;
-  border-bottom: 1px solid #eaeaea;
+  background: rgba(250, 245, 255, 0.5);
+  border-bottom: 1px solid rgba(243, 229, 255, 0.5); 
 }
 
 .header-anchor:hover,
@@ -224,6 +229,7 @@ code {
 /* table of contents styling. Based on the blog of Zachary Wade Betz: https://zwbetz.com/ */
 .toc {
   border: .25rem solid #757575;
+  font-family: 'EB Garamond', serif;
   padding: 1rem; 
   margin-top: 1rem;
   margin-bottom: 1em;
@@ -324,12 +330,10 @@ figcaption a {
 
 /* Styling body texts. Based on https://github.com/xiangming/typo/blob/master/css/typo.css */
 
-@charset 'utf-8';
-/*!
- * Typo v1.0.6 (http://typo.reqianduan.com/)
- * A typography stylesheet designed for better reading experience.
- * © 2017 Arvin Xiang. All rights reserved.
- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+}
 
 h1,
 h2,
