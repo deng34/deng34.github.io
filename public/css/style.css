@@ -120,22 +120,15 @@ div.splitbox div.right {
   font-family: 'EB Garamond', serif;
 }
 
-/* navigation bar positioning */
 .nav {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
   text-align: right;
-}
-
-.nav-logo {
-  float: left;
-  margin-top: -11px;
-  transition: transform 150ms ease-out;
-}
-
-.nav-logo:hover {
-  transform: scale(1.1);
 }
 
 .nav-logo img {
@@ -145,7 +138,13 @@ div.splitbox div.right {
   border-radius: 50%;
 }
 
+.nav-logo:hover {
+  transform: scale(1.1);
+}
+
 .nav-links {
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -154,7 +153,6 @@ div.splitbox div.right {
 }
 
 .nav-links li {
-  display: inline-block;
   margin: 0 0 0 15px;
 }
 
@@ -165,11 +163,13 @@ div.splitbox div.right {
 .nav-links a {
   text-decoration: none;
   color: #111;
+  line-height: 1;
 }
 
 .nav-links a:hover {
   color: #000;
 }
+
 
 /*The parameter of `max-width` below controls the width of the body text. 
 Customize as you prefer*/
