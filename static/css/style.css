@@ -124,6 +124,10 @@ div.splitbox div.right {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
   text-align: right;
 }
 
@@ -139,6 +143,8 @@ div.splitbox div.right {
 }
 
 .nav-links {
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -147,7 +153,6 @@ div.splitbox div.right {
 }
 
 .nav-links li {
-  display: inline-block;
   margin: 0 0 0 15px;
 }
 
@@ -158,11 +163,13 @@ div.splitbox div.right {
 .nav-links a {
   text-decoration: none;
   color: #111;
+  line-height: 1;
 }
 
 .nav-links a:hover {
   color: #000;
 }
+
 
 /*The parameter of `max-width` below controls the width of the body text. 
 Customize as you prefer*/
