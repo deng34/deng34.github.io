@@ -1,7 +1,6 @@
 baseURL = "https://deng34.github.io/"
 languageCode = "en-us"
-title = "Hugo-HT"
-theme = "hugo-ht"
+title = "Deng Peng"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
 # enableGitInfo = true

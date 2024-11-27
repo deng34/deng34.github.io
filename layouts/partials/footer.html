@@ -1,5 +1,4 @@
 <footer class="footer">
-  {{ partial "comments.html" . }}
   {{ partial "foot_custom.html" . }}
      <ul class="footer-links">
       {{ if .IsHome }}
@@ -39,7 +38,7 @@
      </ul>
 
      <!-- Add Utterances comment system here -->
-     {{ if not .IsSection }}
+     {{ if and (not .IsHome) (not .IsSection) }}
      <script src="https://utteranc.es/client.js"
              repo="deng34/deng34.github.io"
              issue-term="pathname"
@@ -48,6 +47,7 @@
              async>
      </script>
      {{ end }}
+     
 
      <div class="copyright-text">
             {{ with .Site.Params.copyright }}
