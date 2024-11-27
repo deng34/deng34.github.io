@@ -11,4 +11,4 @@ Currently, I work as a full-time freelance writer in health, technology, and cul
 
 In my spare time, I enjoy watching and playing tennis, reading, and binge-watching cat videos.
 
-For more about my background and experience, you can view my [CV](/cv/Deng_CV_2023.pdf). For the programming and statistics courses that I have completed, you can view my [LinkedIn page](https://www.linkedin.com/in/deng-peng-098953207/).
+For more about my background and experience, you can view my [CV](/cv/Deng_CV_2024.pdf). For the programming and statistics courses that I have completed, you can view my [LinkedIn page](https://www.linkedin.com/in/deng-peng-098953207/).
