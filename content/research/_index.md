@@ -13,7 +13,7 @@ _build:
 <div class="left">
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 <a href="/research/introductions/masked-identity-priming" title="Click to view detailed introduction">
-<img itemprop="thumbnail" src="/images/masked-priming.jpg" alt="Masked Identity Priming Research">
+<img itemprop="thumbnail" src="images/masked-priming.png" alt="Masked Identity Priming Research">
 </a>
 <figcaption>Click image for detailed introduction</figcaption>
 </figure>
@@ -32,7 +32,7 @@ _build:
 <div class="left">
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 <a href="/research/introductions/visual-recognition" title="Click to view detailed introduction">
-<img itemprop="thumbnail" src="/images/visual-recognition.jpg" alt="Visual Recognition of Chinese Characters">
+<img itemprop="thumbnail" src="images/visual-recognition.png" alt="Visual Recognition of Chinese Characters">
 </a>
 <figcaption>Click image for detailed introduction</figcaption>
 </figure>
