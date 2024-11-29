@@ -1,7 +1,6 @@
 ---
 title: "Research Experience"
 date: 2024-11-29
-type: "research"
 _build:
   list: false
 ---
