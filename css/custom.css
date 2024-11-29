@@ -1,0 +1,95 @@
+/* 分栏布局样式 */
+.splitbox {
+    margin: 2em 0;
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+
+.splitbox:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.splitbox .left {
+    float: left;
+    width: 30%;
+    padding-right: 2em;
+}
+
+.splitbox .right {
+    float: right;
+    width: 70%;
+}
+
+/* 图片样式 */
+.splitbox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 标题样式 */
+.splitbox .right h2,
+.splitbox .right h3,
+.splitbox .right h4,
+.splitbox .right p {
+    text-align: left;
+    margin-left: 0;
+}
+
+.splitbox h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 600;
+}
+
+.splitbox h3 {
+    font-size: 1.3em;
+    color: #444;
+    margin: 1em 0 0.5em;
+    font-weight: 500;
+}
+
+.splitbox h4 {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0.8em 0 0.4em;
+    font-weight: 500;
+}
+
+/* 链接样式 */
+.splitbox a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.splitbox a:hover {
+    text-decoration: underline;
+}
+
+/* 段落样式 */
+.splitbox p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+    color: #24292e;
+}
+
+/* 移除页面顶部分割线 */
+.content-header {
+    border-top: none;
+}
+
+/* 图片相关样式 */
+.splitbox figure {
+    margin: 0;
+    padding: 0;
+}
+
+.splitbox figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+    display: block; /* 确保显示 */
+}
