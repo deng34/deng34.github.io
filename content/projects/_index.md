@@ -47,7 +47,7 @@ list: false
 <div class="splitbox">
 <div class="left">
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-<a href="/projects/introductions/youtube-analysis" title="Click to view project introduction">
+<a href="/projects/introductions/youtube-analysis-tool" title="Click to view project introduction">
 <img itemprop="thumbnail" src="images/youtube-analysis.png" alt="YouTube Video Analysis">
 </a>
 <figcaption>Click image for detailed introduction</figcaption>
