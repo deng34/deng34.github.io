@@ -6,6 +6,10 @@ footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
 # enableGitInfo = true
 
+[security]
+  [security.http]
+    urls = ['https://embed.gettyimages.com/*']
+
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
