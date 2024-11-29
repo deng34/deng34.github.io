@@ -1,4 +1,4 @@
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><a name="top"></a>
+<a name="top"></a>
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -36,7 +36,7 @@
 
 
 
-            <link rel="icon" href="http://localhost:1313/media/hugo-logo.png">
+            <link rel="icon" href="https://deng34.github.io/media/hugo-logo.png">
 
 
 
@@ -75,7 +75,7 @@
 <main class = "content" role="main">
 <div style="text-align: center">
 
-<h1>Do We Read Chinese Characters Differently?</h1>
+<h1>Has the Health Status of US Citizens Become Better or Worse Since 2014?</h1>
 
 <p> 
 </p>
@@ -91,7 +91,7 @@
   
   
   
-  <a href='https://github.com/deng34/deng34.github.io/edit/main/content/research%5cvisual-recognition%5cindex.md'style="font-size: 24px; color: black;" target="_blank"><i class="fa fa-edit" aria-hidden="true" title="Suggest an edit of this page"></i>
+  <a href='https://github.com/deng34/deng34.github.io/edit/main/content/projects%5cintroductions%5chealth-trends%5cindex.md'style="font-size: 24px; color: black;" target="_blank"><i class="fa fa-edit" aria-hidden="true" title="Suggest an edit of this page"></i>
   </a>
   
   
@@ -101,21 +101,33 @@
 
 
 <div class="body-text list-text">
-<p>How does our brain recognize Chinese characters—one of the most complex writing systems in the world? Unlike alphabetic languages where letters combine sequentially, Chinese characters present a fascinating puzzle of intricate spatial arrangements of strokes. Our research explored this mystery by examining the role of strokes in Chinese character recognition.</p>
-<p><img src="images/vr-1.png" alt="Chinese stroke neighbors">
-<em>宫 and 官 look similar, only differing by one stroke</em></p>
-<p>Using a technique called masked priming—which involves briefly presenting one stimulus before another to observe the effects on recognition—we investigated a particularly intriguing phenomenon: when readers encounter a Chinese character, how does it affect their recognition of other characters that look nearly identical but differ by just one or two strokes? These &ldquo;stroke neighbors&rdquo; (like 官 and 宫) provide a unique window into the cognitive mechanisms underlying character recognition.</p>
-<p><img src="images/vr-2.png" alt="Masked priming paradigm">
-<em>A lexical decision task in masked priming paradigm</em></p>
-<p>Previous studies on this topic have yielded conflicting results. Some found that encountering one character gives its neighbor a &ldquo;head start&rdquo; in recognition, suggesting a facilitatory effect. Others discovered that neighbors actually compete with each other during recognition, as both of their mental representations are activated simultaneously, leading to interference. Our research suggests that timing might be the key to this puzzle—the longer the brain has to process the first character, the more likely it is that competition will emerge, resulting in interference with recognizing its &ldquo;neighbor.&rdquo;</p>
-<p><img src="images/vr-3.png" alt="RT graph">
-<em>RT = reaction time, PE = priming effect = mean RT in experimental condition - mean RT in control condition&quot;</em></p>
-<p>These findings suggest that Chinese character processing might follow unique patterns compared to alphabetic languages, which show more consistent interference from &ldquo;neighbors&rdquo;. Understanding these patterns not only advances our knowledge of human visual cognition but could also have practical applications in Chinese language education and reading disorder research.</p>
+<p>This project visualizes a decade of US health statistics (2014-2023) using CDC&rsquo;s Behavioral Risk Factor Surveillance System (BRFSS) data. The interactive visualization presents five key health indicators - general health status, heart disease, stroke, cancer, and arthritis - across all US states.</p>
+<p><img src="images/ht-1.png" alt="health grid map">
+<em>Grid map of women&rsquo;s &ldquo;poor health&rdquo; percentage across US states (2022), with darker greens indicating lower rates.</em></p>
+<p>Inspired by Nathan Yau&rsquo;s <a href="https://flowingdata.com/2017/12/07/small-multiples-map-grid/" target="_blank" rel="noreferrer noopener">grid map</a>
+
+ approach (adapted from R to Python), each state is represented as an equal-sized unit to prevent geographical size from distorting data interpretation. The visualization includes features for examining gender differences and temporal changes through an interactive year slider. Color gradients indicate the prevalence rates of each health condition.</p>
+<p>You can view the visualization <a href="https://dengpeng.org/us-health-statistics-visualization/visualization.html" target="_blank" rel="noreferrer noopener">here</a>
+
+.</p>
 
 
 <p style="color:#777;">Last modified on 0001-01-01</p>
 </div>
 <a href="#top"><i class="fa fa-chevron-up" style="font-size: 30px; color: black;"></i></a>
+
+
+
+  
+    <script src="https://utteranc.es/client.js"
+            repo="deng34/deng34.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  
+
 
 </main>
 
@@ -128,14 +140,6 @@
 
      <ul class="footer-links">
       
-       
-       
-       
-       <li><a href="/research/posts/index.xml" type="application/rss+xml" title="RSS feed">
-       Subscribe </a>
-       </li>
-       
-       
        <li>
        
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
@@ -144,9 +148,7 @@
         <i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i> 
         </a>
        </li>
-       
      </ul>
-     
 
      <div class="copyright-text">
             
@@ -159,5 +161,3 @@
      </div>
 
 </footer>
-
-
