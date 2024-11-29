@@ -14,16 +14,6 @@
        </li>
        {{ end }}
        {{ end }}
-       {{ if not .IsHome }}
-       {{ with .Site.Params.singleLang }}
-       <li><a href="/{{ $.Site.Params.blogDirName }}/index.xml" type="application/rss+xml" title="RSS feed">
-       {{ else }}
-       {{ with .Section }}
-       <li><a href="/{{ . }}/{{ $.Site.Params.blogDirName }}/index.xml" type="application/rss+xml" title="RSS feed">
-       {{ default "Subscribe" (index $.Site.Params.lang.subscribe $.Section) }} </a>
-       </li>
-       {{ end }}
-       {{ end }}
        <li>
        {{ if eq .Section "cn"}}
        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">

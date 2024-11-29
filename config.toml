@@ -6,6 +6,12 @@ footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
 # enableGitInfo = true
 
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
 [permalinks]
 cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
@@ -51,6 +57,11 @@ posts = "/posts/:year/:month/:day/:slug/"
     # Edit by yourself:
     ContentSource = "https://raw.githubusercontent.com/deng34/deng34.github.io/main/content/" 
 
+[params.utterances]
+  repo = "deng34/deng34.github.io"
+  issueTerm = "pathname"
+  theme = "github-light"
+
 [params.logo]
   # Change the logo picture as your prefer:
   url = "media/my-logo.png" # you can change it
@@ -83,10 +94,6 @@ posts = "/posts/:year/:month/:day/:slug/"
     [params.lang.sourceCode]
       en = "Content in"
       cn = "内容存于"
-
-    [params.lang.subscribe]
-      en = "Subscribe"
-      cn = "订阅"
 
     [params.lang.license]
       en = "License"
