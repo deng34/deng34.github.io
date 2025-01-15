@@ -55,7 +55,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     # Edit by yourself:
     GithubEdit = "https://github.com/deng34/deng34.github.io/edit/main/content/"
     copyright = "&copy;"
-    copyrightYear = "2024"
+    copyrightYear = "2025"
     # Edit by yourself:
     GithubRepo = "https://github.com/deng34/deng34.github.io"
     # Edit by yourself:
